@@ -33,6 +33,7 @@ class Solution {
 		Scanner s = new Scanner(System.in);
 		int m = s.nextInt();
 		int n = s.nextInt();
+		s.nextLine();
 		int[] arr1 = intArray(s.next());
 		int[] arr2 = intArray(s.next());
 		//System.out.println(Arrays.toString(arr1));
