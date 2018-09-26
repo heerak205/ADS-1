@@ -5,11 +5,16 @@ import java.util.Arrays;
  */
 class Solution {
 	/**
+	 * Constructs the object.
+	 */
+	Solution() {
+	}
+	/**
 	 * {main method}.
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		int[] array = new int[n];
@@ -24,7 +29,7 @@ class Solution {
 	 *
 	 * @param      arr   The arr
 	 */
-	public static void threeSum(int[] arr) {
+	public static void threeSum(final int[] arr) {
 		//arrs.sort(arr);
 		//System.out.println(arrs.toString(arr));
 		int count = 0;
