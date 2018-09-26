@@ -34,16 +34,22 @@ class Solution {
 		int m = s.nextInt();
 		int n = s.nextInt();
 		s.nextLine();
-		int[] arr1 = intArray(s.next());
-		int[] arr2 = intArray(s.next());
+		int[] arr1 = new int[m];
+		int[] arr2 = new int[n];
+		if (m == 0) {
+			s.nextLine();
+		} else {
+			arr1 = intArray(s.next());
+		}
+			arr2 = intArray(s.next());
 		//System.out.println(Arrays.toString(arr1));
 		//System.out.println(Arrays.toString(arr2));
 		//System.out.println(Arrays.copyOf(arr1, m+n));
 		//Arrays.copyOf(arr1, m+n);
 		//for(int i = 0; i < )
-		int[] resultArray = new int[arr1.length + arr2.length];
+		int[] resultArray = new int[m + n];
 		int i = 0, j = 0, k = 0;
-		while (i < arr1.length && j < arr2.length) {
+		while (i < m && j < n) {
 			if (arr1[i] < arr2[j]) {
 				resultArray[k++] = arr1[i];
 				i = i + 1;
@@ -52,14 +58,14 @@ class Solution {
 				j = j + 1;
 			}
 		}
-		if (arr1.length > arr2.length) {
-			while (k < arr1.length + arr2.length) {
+		if (m > n) {
+			while (k < m + n) {
 				resultArray[k++] = arr1[i++];
 			}
 
 		}
-		if (arr2.length > arr1.length) {
-			while (k < arr1.length + arr2.length) {
+		if (n > m) {
+			while (k < m + n) {
 				resultArray[k++] = arr2[j++];
 			}
 		}
