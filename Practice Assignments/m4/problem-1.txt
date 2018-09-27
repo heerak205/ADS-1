@@ -1,0 +1,26 @@
+﻿where "-" means pop:
+it was - the best - of times - - - it was - the - -
+1. “It” gets added in the stack initially, next the word “was” gets added above the previous word.
+2. As,“-”meanspop,“was”getsremoved,so,now,only“it”isthere.
+3. Best
+4. The
+5. It
+6. -
+7. Times
+8. Of
+9. The
+10. It
+11. -
+12. -
+13. -
+14. Was
+15. It
+16. It
+17. -
+18. The
+19. It
+     20. It
+     21. -
+     22.-
+     23.It
+     24.So, finally, the word “it” remained.
