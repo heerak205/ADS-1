@@ -9,10 +9,21 @@ class Stack {
      * Class for node.
      */
     class Node {
-        int data;
-        Node next;
-        Node(int data) {
-            this.data = data;
+        /**
+         * {data}.
+         */
+        private int data;
+        /**
+         * {next}.
+         */
+        private Node next;
+        /**
+         * Constructs the object.
+         *
+         * @param      data2  The data 2
+         */
+        Node(final int data2) {
+            this.data = data2;
         }
     }
     /**
@@ -20,7 +31,7 @@ class Stack {
      *
      * @param      value  The value
      */
-    public void push(int value) {
+    public void push(final int value) {
         Node obj = new Node(value);
         obj.next = first;
         first = obj;
@@ -50,22 +61,37 @@ class Stack {
  * List of linkeds.
  */
 class LinkedList {
-    Node first = null;
-    Node last = null;
-    int size = 0;
+    /**
+     * {first}.
+     */
+    private Node first = null;
+    /**
+     * {last}.
+     */
+    private Node last = null;
+    /**
+     * {size}.
+     */
+    private int size = 0;
     /**
      * Class for node.
      */
     class Node {
-        String data;
-        Node next;
+        /**
+         * { var_description }.
+         */
+        private String data;
+        /**
+         * { var_description }.
+         */
+        private Node next;
         /**
          * Constructs the object.
          *
          * @param      data  The data
          */
-        Node(String data) {
-            this.data = data;
+        Node(final String data1) {
+            this.data = data1;
         }
     }
     /**
@@ -81,7 +107,7 @@ class LinkedList {
      *
      * @param      element  The element
      */
-    public void push(String element) {
+    public void push(final String element) {
         Node obj = new Node(element);
         if (isEmpty()) {
             first = obj;
@@ -124,7 +150,7 @@ class LinkedList {
 /**
  * Class for add large numbers.
  */
-class AddLargeNumbers {
+final class AddLargeNumbers {
     /**
      * Constructs the object.
      */
@@ -160,7 +186,6 @@ class AddLargeNumbers {
         }
         return num;
     }
-
     // public static LinkedList 
     // addLargeNumbers(LinkedList list1, LinkedList list2) {
     // return LinkedList l;
@@ -169,7 +194,7 @@ class AddLargeNumbers {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
