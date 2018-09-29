@@ -9,13 +9,11 @@ class Stack {
             this.data = data;
         }
     }
-
     public void push(int value) {
         Node obj = new Node(value);
         obj.next = first;
         first = obj;
     }
-
     public int pop() {
         int item = first.data;
         first = first.next;
