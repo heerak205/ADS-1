@@ -4,7 +4,10 @@ import java.util.Scanner;
  * List of .
  */
 class Stack {
-    Node first = null;
+    /**
+     * {first}.
+     */
+    private Node first = null;
     /**
      * Class for node.
      */
@@ -88,7 +91,7 @@ class LinkedList {
         /**
          * Constructs the object.
          *
-         * @param      data  The data
+         * @param      data1  The data
          */
         Node(final String data1) {
             this.data = data1;
@@ -186,7 +189,7 @@ final class AddLargeNumbers {
         }
         return num;
     }
-    // public static LinkedList 
+    // public static LinkedList
     // addLargeNumbers(LinkedList list1, LinkedList list2) {
     // return LinkedList l;
     // }
@@ -221,7 +224,7 @@ public final class Solution {
         case "addLargeNumbers":
             pDigits = AddLargeNumbers.numberToDigits(p);
             qDigits = AddLargeNumbers.numberToDigits(q);
-            //LinkedList result = 
+            //LinkedList result =
             //AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
             //System.out.println(AddLargeNumbers.digitsToNumber(result));
             break;
