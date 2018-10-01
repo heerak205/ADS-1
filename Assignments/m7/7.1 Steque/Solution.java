@@ -1,19 +1,38 @@
 import java.util.Scanner;
+/**
+ * Class for node.
+ */
 class Node {
 	String data;
 	Node next;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      item  The item
+	 */
 	Node(String item) {
 		this.data = item;
 	}
 }
+/**
+ * Class for steque.
+ */
 class Steque {
-	Node start, end;
+	private Node start, end;
 	int size = 0;
+	/**
+	 * Constructs the object.
+	 */
 	Steque() {
 		start = null;
 		end = null;
 	}
-	void push(String item) {
+	/**
+	 * {to add item}.
+	 *
+	 * @param      item  The item
+	 */
+	void push(final String item) {
 		Node obj = new Node(item);
 		if (size == 0) {
 			start = obj;
@@ -24,9 +43,13 @@ class Steque {
 		obj.next = start;
 		start = obj;
 		size++;
-
 	}
-	void enqueue(String item) {
+	/**
+	 * {method to add item}.
+	 *
+	 * @param      item  The item
+	 */
+	void enqueue(final String item) {
 		Node obj = new Node(item);
 		if (size == 0) {
 			start = obj;
@@ -38,6 +61,13 @@ class Steque {
 		end = obj;
 		size++;
 	}
+	/**
+	 * {method to remove}.
+	 *
+	 * @return     { description_of_the_return_value }
+	 *
+	 * @throws     Exception  { exception_description }
+	 */
 	String pop() throws Exception {
 		if (isEmpty()) {
 			throw new Exception("Steque is empty.");
@@ -47,9 +77,19 @@ class Steque {
 		size--;
 		return data;
 	}
+	/**
+	 * Determines if empty.
+	 *
+	 * @return     True if empty, False otherwise.
+	 */
 	boolean isEmpty() {
 		return size == 0;
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		// if(isEmpty()){
 
@@ -63,13 +103,26 @@ class Steque {
 		return res.substring(0, res.length() - 2);
 	}
 }
+/**
+ * Class for solution.
+ */
 class Solution {
-	public static void main(String[] args) {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+	}
+	/**
+	 * {main method}.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = Integer.parseInt(sc.nextLine());
 		Steque st = new Steque();
 		while (sc.hasNextLine()) {
-			String input[] = sc.nextLine().split(" ");
+			String[] input = sc.nextLine().split(" ");
 			switch (input[0]) {
 			case "push":
 				st.push(input[1]);
