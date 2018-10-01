@@ -40,7 +40,7 @@ class Steque{
 	}
 	String pop() throws Exception{
 		if(isEmpty()){
-			throw new Exception("Steque is empty");
+			throw new Exception("Steque is empty.");
 		}
 		String data = start.data;
 		start = start.next;
