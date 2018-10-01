@@ -3,23 +3,47 @@ import java.util.Scanner;
  * Class for node.
  */
 class Node {
-	String data;
-	Node next;
+	/**
+	 * {data declaration}.
+	 */
+	protected String data;
+	/**
+	 * {Next variable of type Node}.
+	 */
+	protected Node next;
 	/**
 	 * Constructs the object.
 	 *
 	 * @param      item  The item
 	 */
-	Node(String item) {
+	Node(final String item) {
 		this.data = item;
 	}
+	// public void setData() {
+	// 	this.data = data;
+	// }
+	// public String getData() {
+	// 	return data;
+	// }
+	// public void setNext() {
+	// 	this.next = next;
+	// }
+	// public Node getNext() {
+	// 	return next;
+	// }
 }
 /**
  * Class for steque.
  */
 class Steque {
+	/**
+	 * {start and end declaration}.
+	 */
 	private Node start, end;
-	int size = 0;
+	/**
+	 * {size declaration}.
+	 */
+	private int size = 0;
 	/**
 	 * Constructs the object.
 	 */
@@ -106,7 +130,7 @@ class Steque {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
 	/**
 	 * Constructs the object.
 	 */
