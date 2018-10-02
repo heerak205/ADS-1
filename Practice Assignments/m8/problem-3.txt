@@ -1,0 +1,1 @@
+﻿I think that this would be similar to when the array is already sorted, so that insertion sort will be linear, and the selection sort quadratic.
