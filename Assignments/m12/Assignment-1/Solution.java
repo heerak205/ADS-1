@@ -27,15 +27,42 @@ class Student implements Comparable<Student> {
      * @param      rc    The rectangle
      */
     Student(String name, String dob, int s1, int s2, int s3, int tm, String rc ) {
+        /**
+         * {name}.
+         */
         this.name = name;
         String[] d = dob.split("-");
+        /**
+         * {day}.
+         */
         this.day = Integer.parseInt(d[0]);
+        /**
+         * {month}.
+         */
         this.month = Integer.parseInt(d[1]);
+        /**
+         * {year}.
+         */
         this.year = Integer.parseInt(d[2]);
+        /**
+         * {s1}.
+         */
         this.s1 = s1;
+        /**
+         * {s2}.
+         */
         this.s2 = s2;
+        /**
+         * {s3}.
+         */
         this.s3 = s3;
+        /**
+         * {totalmarks}.
+         */
         this.tm = tm;
+        /**
+         * {reservation category}.
+         */
         this.rc = rc;
     }
     /**
