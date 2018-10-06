@@ -141,11 +141,11 @@ class Student implements Comparable<Student> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
     }
     static ArrayList<Student> studs = new ArrayList<>();
     static ArrayList<Student> vacancyArr = new ArrayList<>();
@@ -154,7 +154,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int vac = s.nextInt();
@@ -194,8 +194,8 @@ class Solution {
      * @param      sc    The screen
      * @param      st    { parameter_description }
      */
-    public static void vacancy(int vac, int oc,
-                               int bc, int sc, int st) {
+    public static void vacancy(final int vac, final int oc,
+                               final int bc, final int sc, final int st) {
         int p = 0;
         int q = 0;
         int r = 0;
