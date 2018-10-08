@@ -68,7 +68,7 @@ public final class Solution {
             for (int i = 0; i < n; i++) {
                 String[] choices = s.nextLine().split(",");
                 isMinHeap<String> isobj
-                = new isMinHeap<String>(choices);
+                    = new isMinHeap<String>(choices);
                 System.out.println(isobj.isMinHeap());
             }
             break;
@@ -81,7 +81,7 @@ public final class Solution {
                     elementInt[j] = Integer.parseInt(choices[j]);
                 }
                 isMinHeap<Integer> isobj
-                = new isMinHeap<Integer>(elementInt);
+                    = new isMinHeap<Integer>(elementInt);
                 System.out.println(isobj.isMinHeap());
             }
             break;
@@ -94,7 +94,7 @@ public final class Solution {
                     elementDouble[j] = Double.parseDouble(choices[j]);
                 }
                 isMinHeap<Double> isobj
-                = new isMinHeap<Double>(elementDouble);
+                    = new isMinHeap<Double>(elementDouble);
                 System.out.println(isobj.isMinHeap());
             }
             break;
@@ -112,12 +112,12 @@ public final class Solution {
                         elementFloat[j] = Float.parseFloat(choices[j]);
                     }
                     isMinHeap<Float> isobj
-                     = new isMinHeap<Float>(elementFloat);
+                        = new isMinHeap<Float>(elementFloat);
                     System.out.println(isobj.isMinHeap());
                 }
             }
             break;
-            default:
+        default:
             break;
         }
     }
