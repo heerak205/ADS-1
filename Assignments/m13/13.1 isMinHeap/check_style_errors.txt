@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m13/13.1 isMinHeap/Solution.java:7:7: Name 'isMinHeap' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m13/13.1 isMinHeap/Solution.java:25:20: Method Name 'isMinHeap' must not equal the enclosing class name. [MethodName]
+Audit done.
+Checkstyle ends with 2 errors.
