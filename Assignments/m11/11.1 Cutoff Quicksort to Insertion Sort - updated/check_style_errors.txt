@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m11/11.1 Cutoff Quicksort to Insertion Sort - updated/Solution.java:5: Class Solution should be declared as final. [FinalClass]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m11/11.1 Cutoff Quicksort to Insertion Sort - updated/Solution.java:17:29: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 2 errors.
