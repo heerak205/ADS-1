@@ -1,3 +1,6 @@
+/**
+ * {to import Arrays}.
+ */
 import java.util.Arrays;
 /**
  * {class for binary search tree}.
