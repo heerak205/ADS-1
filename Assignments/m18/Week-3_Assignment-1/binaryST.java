@@ -51,7 +51,7 @@ public final class binaryST<Key extends Comparable<Key>, Value> {
             values[i] = v;
             return;
         }
-        for (int j = size; j > i; j--)  {
+        for (int j = size; j > i; j--) {
             keys[j] = keys[j - 1];
             values[j] = values[j - 1];
         }
@@ -153,7 +153,7 @@ public final class binaryST<Key extends Comparable<Key>, Value> {
         if (i < size && keys[i].compareTo(delkey) != 0) {
             return;
         }
-        for (int j = i; j < size - 1; j++)  {
+        for (int j = i; j < size - 1; j++) {
             keys[j] = keys[j + 1];
             values[j] = values[j + 1];
         }
