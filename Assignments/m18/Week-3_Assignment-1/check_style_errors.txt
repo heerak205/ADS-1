@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m18/Week-3_Assignment-1/binaryST.java:5: Type Javadoc comment is missing @param <Key> tag. [JavadocType]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m18/Week-3_Assignment-1/binaryST.java:5: Type Javadoc comment is missing @param <Value> tag. [JavadocType]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m18/Week-3_Assignment-1/binaryST.java:5:20: Name 'binaryST' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+Audit done.
+Checkstyle ends with 3 errors.
