@@ -1,3 +1,6 @@
+/**
+ * {imports Scanner class}.
+ */
 import java.util.Scanner;
 /**
  * Solution class.
