@@ -20,11 +20,11 @@ class Book implements Comparable<Book> {
      * @param      a     author.
      * @param      p     price.
      */
-    Book(final String name, final String author,
-        final double price) {
-        this.name = name;
-        this.author = author;
-        this.price = price;
+    Book(final String n, final String a,
+        final double p) {
+        name = n;
+        author = a;
+        price = p;
     }
     /**
      * Gets the name.
@@ -52,7 +52,7 @@ class Book implements Comparable<Book> {
      * @param      b     b of type Book.
      * @return     integer.
      */
-    public int compareTo(final Book book) {
-        return getName().compareTo(book.getName());
+    public int compareTo(final Book b) {
+        return getName().compareTo(b.getName());
     }
 }

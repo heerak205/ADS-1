@@ -10,9 +10,9 @@ public final class Solution {
 
     }
     /**
-     * main method.
+     * main method that drives the program.
      * @param      args  The arguments
-     * The time complexity is O(N).
+     * The time complexity for this method is O(N).
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,49 +32,49 @@ public final class Solution {
                 System.out.println(bst.get(key));
                 break;
             case "max":
-                Book book = bst.max();
-                System.out.println(book.getName() + ", "
-                    + book.getAuthor() + ", " + book.getPrice());
+                Book b = bst.max();
+                System.out.println(b.getName() + ", "
+                    + b.getAuthor() + ", " + b.getPrice());
                 break;
             case "min":
-                book = bst.min();
-                System.out.println(book.getName() + ", "
-                    + book.getAuthor() + ", " + book.getPrice());
+                b = bst.min();
+                System.out.println(b.getName() + ", "
+                    + b.getAuthor() + ", " + b.getPrice());
                 break;
             case "select":
-                book = bst.select(Integer.parseInt(choices[1]));
-                System.out.println(book.getName() + ", "
-                    + book.getAuthor() + ", " + book.getPrice());
+                b = bst.select(Integer.parseInt(choices[1]));
+                System.out.println(b.getName() + ", "
+                    + b.getAuthor() + ", " + b.getPrice());
                 break;
             case "floor":
-                book = bst.floor(new Book(choices[1],
+                b = bst.floor(new Book(choices[1],
                           choices[2], Double.parseDouble(choices[2 + 1])));
-                if (book == null) {
+                if (b == null) {
                     System.out.println("null");
                     break;
                 }
-                System.out.println(book.getName() + ", "
-                    + book.getAuthor() + ", " + book.getPrice());
+                System.out.println(b.getName() + ", "
+                    + b.getAuthor() + ", " + b.getPrice());
                 break;
             case "ceiling":
-                book = bst.ceiling(new Book(choices[1],
+                b = bst.ceiling(new Book(choices[1],
                           choices[2], Double.parseDouble(choices[2 + 1])));
-                if (book == null) {
+                if (b == null) {
                     System.out.println("null");
                     break;
                 }
-                System.out.println(book.getName() + ", "
-                    + book.getAuthor() + ", " + book.getPrice());
+                System.out.println(b.getName() + ", "
+                    + b.getAuthor() + ", " + b.getPrice());
                 break;
             case "delete":
             bst.delete(new Book(choices[1],
                           choices[2], Double.parseDouble(choices[2 + 1])));
             break;
-            case "deletMaxim":
-            bst.deletMaxim();
+            case "deleteMax":
+            bst.deleteMax();
             break;
-            case "deletMinim":
-            bst.deletMinim();
+            case "deleteMin":
+            bst.deleteMin();
             break;
             default:
                 break;

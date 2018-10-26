@@ -30,20 +30,20 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         private int size;
         /**
          * Constructs the object.
-         * @param      key     key.
-         * @param      value     value.
-         * @param      size     size.
+         * @param      k     key.
+         * @param      v     value.
+         * @param      s     size.
          */
-        Node(final Key key, final Value value, final int size) {
-            this.key = key;
-            this.value = value;
-            this.size = size;
+        Node(final Key k, final Value v, final int s) {
+            key = k;
+            value = v;
+            size = s;
         }
     }
     /**
      * Determines if empty.
      * @return     True if empty, False otherwise.
-     * Time complexity is O(1).
+     * Time complexity for this method is O(1).
      */
     public boolean isEmpty() {
         return size() == 0;
@@ -51,7 +51,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * size method that returns the size.
      * @return     size of type int.
-     * Time complexity is O(1).
+     * Time complexity for this method is O(1).
      */
     public int size() {
         return size(root);
@@ -60,7 +60,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * size method that returns the size.
      * @param      x     Node.
      * @return     size of type int.
-     * Time complexity is O(1).
+     * Time complexity for this method is O(1).
      */
     private int size(final Node x) {
         if (x == null) {
@@ -147,7 +147,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * min method that returns the minimum node.
      * @return     Key of type Book.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public Key min() {
         return min(root).key;
@@ -156,7 +156,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * min method that returns the minimum node.
      * @param      x     Node.
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     private Node min(final Node x) {
         if (x.left == null) {
@@ -168,7 +168,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * max method that returns the maximum node.
      * @return     Key of type Book.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public Key max() {
         return max(root).key;
@@ -177,7 +177,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * min method that returns the minimum node.
      * @param      x     Node.
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     private Node max(final Node x) {
         if (x.right == null) {
@@ -191,7 +191,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * than given node.
      * @param      key   The key
      * @return     Key of type Book.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public Key floor(final Key key) {
         if (isEmpty()) {
@@ -210,7 +210,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @param      x     Node.
      * @param      key   The key
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     private Node floor(final Node x, final Key key) {
         if (x == null) {
@@ -235,7 +235,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * than given node.
      * @param      key   The key
      * @return     Key of type Book.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public Key ceiling(final Key key) {
         if (isEmpty()) {
@@ -254,7 +254,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @param      x     Node.
      * @param      key   The key
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     private Node ceiling(final Node x, final Key key) {
         if (x == null) {
@@ -278,7 +278,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * select method that returns the node at particular index.
      * @param      k     index.
      * @return     Key of type Book.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public Key select(final int k) {
         Node x = select(root, k);
@@ -289,7 +289,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @param      x     Node.
      * @param      k     index.
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     private Node select(final Node x, final int k) {
         if (x == null) {
@@ -307,7 +307,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     /**
      * delete method that deletes the particular node.
      * @param      key   The key
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
     public void delete(final Key key) {
         root = delete(root, key);
@@ -317,7 +317,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @param      x     Node.
      * @param      key   The key
      * @return     Node.
-     * Time complexity O(N).
+     * Time complexity for this method is O(N).
      */
     private Node delete(final Node x, final Key key) {
         Node n = x;
@@ -338,51 +338,51 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
             }
             Node t = n;
             n = min(t.right);
-            n.right = deletMinim(t.right);
+            n.right = deleteMin(t.right);
             n.left = t.left;
         }
         n.size = size(n.left) + size(n.right) + 1;
         return n;
     }
     /**
-     * deletMinim method that deletes the minimum node.
-     * Time complexity is O(N).
+     * deleteMin method that deletes the minimum node.
+     * Time complexity for this method is O(N).
      */
-    public void deletMinim() {
-        root = deletMinim(root);
+    public void deleteMin() {
+        root = deleteMin(root);
     }
     /**
-     * deletMinim method that deletes the minimum node.
+     * deleteMin method that deletes the minimum node.
      * @param      x     Node.
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
-    private Node deletMinim(final Node x) {
+    private Node deleteMin(final Node x) {
         if (x.left == null) {
             return x.right;
         }
-        x.left = deletMinim(x.left);
+        x.left = deleteMin(x.left);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
     /**
-     * deletMaxim method that deletes the maximum node.
-     * Time complexity is O(N).
+     * deleteMax method that deletes the maximum node.
+     * Time complexity for this method is O(N).
      */
-    public void deletMaxim() {
-        root = deletMaxim(root);
+    public void deleteMax() {
+        root = deleteMax(root);
     }
     /**
-     * deletMaxim method that deletes the maximum node.
+     * deleteMax method that deletes the maximum node.
      * @param      x     Node.
      * @return     Node.
-     * Time complexity is O(N).
+     * Time complexity for this method is O(N).
      */
-    private Node deletMaxim(final Node x) {
+    private Node deleteMax(final Node x) {
         if (x.right == null) {
             return x.left;
         }
-        x.right = deletMaxim(x.right);
+        x.right = deleteMax(x.right);
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
