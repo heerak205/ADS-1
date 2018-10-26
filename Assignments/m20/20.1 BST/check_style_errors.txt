@@ -1,0 +1,14 @@
+Starting audit...
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:19:8: Unused @param tag for 'n'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:20:8: Unused @param tag for 'a'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:21:8: Unused @param tag for 'p'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:23:23: 'name' hides a field. [HiddenField]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:23:23: Expected @param tag for 'name'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:23:42: 'author' hides a field. [HiddenField]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:23:42: Expected @param tag for 'author'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:24:22: 'price' hides a field. [HiddenField]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:24:22: Expected @param tag for 'price'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:52:8: Unused @param tag for 'b'. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m20/20.1 BST/Book.java:55:37: Expected @param tag for 'book'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 11 errors.
