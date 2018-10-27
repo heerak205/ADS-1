@@ -5,6 +5,7 @@ public class Solution {
      * Constructs the object.
      */
     private Solution() {
+        //empty constructor
     }
     /**
      * {main method thats mandatory to run and execute the program}.
