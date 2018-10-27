@@ -2,6 +2,11 @@ import java.util.Scanner;
 //import java.util.Arrays;
 public class Solution {
     /**
+     * Constructs the object.
+     */
+    private Solution() {
+    }
+    /**
      * {main method thats mandatory to run and execute the program}.
      *
      * @param      args  The arguments
@@ -10,7 +15,8 @@ public class Solution {
         Scanner s = new Scanner(System.in);
         int N = Integer.parseInt(s.nextLine());
         //int N = s.nextInt();
-        SepChainHashST<Integer, Student> student = new SepChainHashST<>();
+        SepChainHashST<Integer, Student> student =
+         new SepChainHashST<>();
         while (N > 0) {
             String[] str = s.nextLine().split(",");
             //System.out.println(Arrays.toString(str));
@@ -73,11 +79,13 @@ class SepChainHashST<Key, Value> {
     /**
      * Constructs the object.
      *
-     * @param      m     {initializes an empty symbol table with m chains}.
+     * @param      m     {initializes an empty symbol
+     *  table with m chains}.
      */
     public SepChainHashST(final int m) {
         this.m = m;
-        st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m];
+        st = 
+        (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m];
         for (int i = 0; i < m; i++)
             st[i] = new SequentialSearchST<Key, Value>();
     }
@@ -87,7 +95,8 @@ class SepChainHashST<Key, Value> {
      * @param      chains  The chains
      */
     private void resize(final int chains) {
-        SepChainHashST<Key, Value> temp = new SepChainHashST<Key, Value>(chains);
+        SepChainHashST<Key, Value> temp = 
+        new SepChainHashST<Key, Value>(chains);
         for (int i = 0; i < m; i++) {
             for (Key key : st[i].keys()) {
                 temp.put(key, st[i].get(key));
