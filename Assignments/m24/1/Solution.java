@@ -75,7 +75,7 @@ class SepChainHashST<Key, Value> {
      *
      * @param      m     {initializes an empty symbol table with m chains}.
      */
-    public SepChainHashST(int m) {
+    public SepChainHashST(final int m) {
         this.m = m;
         st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m];
         for (int i = 0; i < m; i++)
@@ -86,7 +86,7 @@ class SepChainHashST<Key, Value> {
      *
      * @param      chains  The chains
      */
-    private void resize(int chains) {
+    private void resize(final int chains) {
         SepChainHashST<Key, Value> temp = new SepChainHashST<Key, Value>(chains);
         for (int i = 0; i < m; i++) {
             for (Key key : st[i].keys()) {
@@ -101,7 +101,7 @@ class SepChainHashST<Key, Value> {
      *
      * @return     {returns a postive value}.
      */
-    private int hash(Key key) {
+    private int hash(final Key key) {
         return (key.hashCode() & 0x7fffffff) % m;
     }
     /**
@@ -127,7 +127,7 @@ class SepChainHashST<Key, Value> {
      *
      * @return     {returns true if this symbol table contains the specified key}.
      */
-    public boolean contains(Key key) {
+    public boolean contains(final Key key) {
         return get(key) != null;
     }
     /**
@@ -137,7 +137,7 @@ class SepChainHashST<Key, Value> {
      *
      * @return     {returns the value associated with the specified key}.
      */
-    public Value get(Key key) {
+    public Value get(final Key key) {
         int i = hash(key);
         return st[i].get(key);
     }
@@ -147,7 +147,7 @@ class SepChainHashST<Key, Value> {
      * @param      key   The key
      * @param      val   The value
      */
-    public void put(Key key, Value val) {
+    public void put(final Key key, final Value val) {
         if (val == null) {
             delete(key);
             return;
@@ -166,7 +166,7 @@ class SepChainHashST<Key, Value> {
      *
      * @param      key   The key
      */
-    public void delete(Key key) {
+    public void delete(final Key key) {
         int i = hash(key);
         if (st[i].contains(key)) {
             n--;
