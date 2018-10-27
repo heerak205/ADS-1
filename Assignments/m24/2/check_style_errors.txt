@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:3: Class Solution should be declared as final. [FinalClass]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:7:33: Parameter args should be final. [FinalParameters]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:9:21: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:11:35: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] /Users/heerak/git/ADS-1/ADS-1/Assignments/m24/2/Solution.java:15:21: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+Audit done.
+Checkstyle ends with 10 errors.

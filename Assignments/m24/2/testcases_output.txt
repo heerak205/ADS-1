@@ -1,0 +1,1269 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Clark
+Rivest
+Dan
+Abegg
+Your Output: 
+[101, Alice, 88.7]
+[102, Bob, 100.7]
+[103, Adams, 91.6]
+[104, Knuth, 100.5]
+[118, Rivest, 78.4]
+[107, Wayne, 98.3]
+[108, Charles, 99.2]
+[119, Megon, 17.3]
+[110, John, 56.4]
+[111, Abegg, 65.4]
+[113, Peter, 88.5]
+[114, Douglas, 45.0]
+[115, Tony, 44.1]
+[120, Simon, 35.4]
+[125, Daniel, 23.3]
+[135, Fred, 49.4]
+[141, Clark, 76.7]
+[142, Dan, 85.5]
+[143, Neil, 76.3]
+[145, Tim, 23.4]
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+Clark
+Rhian Cahill
+Cozbi A. Cabrera
+Sasha Cagen
+Rivest
+Access
+Rachel Caine
+Alice
+Biba Caggiano
+Peter
+David Cabot
+Adams
+Yassi
+Wayne
+Jonathan Cainer
+Jeannette Caines
+Charles
+Bob
+Knuth
+Maria Cabezas
+Steve Cafferty
+Hank
+Deborah Cadbury
+Dan Caddy
+Neil Cadigan
+Megon
+Meili Cady
+Daniel
+James Cain
+Simon
+George Cain
+Greig Caigou
+Tony
+Keith
+Meg Cabot
+Douglas
+Fred
+Sally Cabot
+Rovina Cai
+James Caffin
+Tim Cain
+John
+Tim Cahill
+Abegg
+Brian Caffrey
+Your Output: 
+[101, Alice, 88.3]
+[102, Bob, 100.0]
+[103, Adams, 91.2]
+[104, Knuth, 100.1]
+[118, Rivest, 78.2]
+[107, Wayne, 98.3]
+[108, Charles, 99.4]
+[119, Megon, 17.5]
+[110, John, 56.7]
+[111, Abegg, 65.7]
+[113, Peter, 88.8]
+[114, Douglas, 45.9]
+[115, Tony, 44.7]
+[120, Simon, 35.5]
+[125, Daniel, 23.4]
+[135, Fred, 49.3]
+[141, Clark, 76.4]
+[132, Hank, 11.2]
+[133, Keith, 45.4]
+[134, Yassi, 94.5]
+[135, Access, 85.6]
+[150, Maria]
+[Cabezas, 100.7]
+[151, David]
+[Cabot, 90.6]
+[152, Meg]
+[Cabot, 45.5]
+[11, Sally]
+[Cabot, 54.3]
+[12, Cozbi]
+[A.]
+[Cabrera, 77.3]
+[13, Deborah]
+[Cadbury, 13.3]
+[14, Dan]
+[Caddy, 14.4]
+[15, Neil]
+[Cadigan, 15.45]
+[16, Meili]
+[Cady, 19.65]
+[18, Steve]
+[Cafferty, 2.0]
+[20, James]
+[Caffin, 55.4]
+[21, Brian]
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+Steve Cafferty
+Hank
+Deborah Cadbury
+Dan Caddy
+Neil Cadigan
+Megon
+Meili Cady
+Daniel
+James Cain
+Simon
+George Cain
+Greig Caigou
+Tony
+Keith
+Meg Cabot
+Douglas
+Fred
+Sally Cabot
+Rovina Cai
+James Caffin
+Tim Cain
+John
+Tim Cahill
+Abegg
+Brian Caffrey
+Steve Cafferty
+Hank
+Deborah Cadbury
+Dan Caddy
+Neil Cadigan
+Megon
+Meili Cady
+Daniel
+James Cain
+Simon
+George Cain
+Greig Caigou
+Tony
+Keith
+Meg Cabot
+Douglas
+Fred
+Sally Cabot
+Rovina Cai
+James Caffin
+Tim Cain
+John
+Tim Cahill
+Abegg
+Brian Caffrey
+Clark
+Rhian Cahill
+Cozbi A. Cabrera
+Sasha Cagen
+Rivest
+Steve Cafferty
+Hank
+Deborah Cadbury
+Dan Caddy
+Neil Cadigan
+Megon
+Meili Cady
+Your Output: 
+[101, Alice, 88.3]
+[102, Bob, 100.0]
+[103, Adams, 91.2]
+[104, Knuth, 100.1]
+[118, Rivest, 78.2]
+[107, Wayne, 98.3]
+[108, Charles, 99.4]
+[119, Megon, 17.5]
+[110, John, 56.7]
+[111, Abegg, 65.7]
+[113, Peter, 88.8]
+[114, Douglas, 45.9]
+[115, Tony, 44.7]
+[120, Simon, 35.5]
+[125, Daniel, 23.4]
+[135, Fred, 49.3]
+[141, Clark, 76.4]
+[132, Hank, 11.2]
+[133, Keith, 45.4]
+[134, Yassi, 94.5]
+[135, Access, 85.6]
+[150, Maria]
+[Cabezas, 100.7]
+[151, David]
+[Cabot, 90.6]
+[152, Meg]
+[Cabot, 45.5]
+[11, Sally]
+[Cabot, 54.3]
+[12, Cozbi]
+[A.]
+[Cabrera, 77.3]
+[13, Deborah]
+[Cadbury, 13.3]
+[14, Dan]
+[Caddy, 14.4]
+[15, Neil]
+[Cadigan, 15.45]
+[16, Meili]
+[Cady, 19.65]
+[18, Steve]
+[Cafferty, 2.0]
+[20, James]
+[Caffin, 55.4]
+[21, Brian]
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:15)
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+Stuart B. MacBride
+Wayne Pacelle
+H3CZ
+John Jacobs
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Elaine Pagels
+Tessa Hadley
+Sammy Hagar
+Keith Habersberger
+Yamile Saied Méndez
+Namita Jain
+Ed J. Paine
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Laurence Packer
+John W. Jacobs M.D.
+Michael Panckridge
+Margaret Peterson Haddix
+Thomas Hackett
+Emma Page
+Elaine Hall
+Margaret Haffner
+June Hadley
+Melissa P
+Kathryn Jacobi
+Chris Pallace
+William Hague
+Mary Curran Hackett
+Sheila Hale
+Jeremy Jackson
+Harvey Mackay
+Gildart Jackson
+Jenna Bush Hager
+Cindy Pan
+Danielle Paige
+Korey Jackson
+John Hale
+Katie MacAlister
+Bonnie MacBird
+Derek Jacobi
+Joseph A. Maciariello
+David Packard
+Meredith Jaeger
+Rebecca Pacheco
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Nathan Hale
+Pamela Haag
+Bernie Mac
+Amanda Hall
+Marianna Palka
+Madhur Jaffrey
+Peter Haining
+Bonner Paddock
+Rona Jaffe
+Alison Mackey
+Jim Paillot
+Sara MacDonald
+Daniel Paisner
+Kristin Hahn
+Aggie MacKenzie
+Philip MacDonald
+Colin Jack
+Tracy Hafen
+Shvetha Jaishankar
+Michele Jaffe
+Emma Jackson
+Peter Jackson
+Magnus MacFarlane-Barrow
+Ian Jackman
+Kellie Hailes
+Kennell Jackson
+Richard Jackson
+Carrington MacDuffie
+Katherine Hall Page
+Chuck Hagel
+Brad Haddin
+T. T. Macan
+Catherine Macaulay
+Frank Pacetta
+Iva-Marie Palmer
+Andrew Jacobson
+Carla Hall
+Michael Hague
+Albert Jack
+Rachel Jacobs
+Stuart MacBride
+Jerome A. Jackson
+Barry Pain
+Robin MacArthur
+Betty MacDonald
+Bonnie MacBird
+Amanda Mackenzie Stuart
+Meredith L. Jacobs
+Kevin MacAllister
+Cynthia Jabar
+Howard Jacobson
+D. J. MacHale
+Saskia Maarleveld
+Louise Mack
+Sarah Palin
+Marylin Hafner
+Charlie Haas
+Mick Jackson
+Bethany Palmer
+Mark Macdonald
+Melanie MacHugh
+Bethany Hagen
+Tiffany D. Jackson
+Mark Palmer
+Adele Jacques
+Auston Habershaw
+Chris Packham
+Nafisa Haji
+Rebecca Paley
+Marilyn Hagerty
+Shaili Jain M.D.
+John Jacobs
+Al Jaffee
+Nasim Marie Jafry
+Laura Holmes Haddad
+David H. Hackworth
+Shelley Jackson
+Daniel Palmer
+Marianna Palk
+Thelma Page
+Vicky Hales-Dutton
+Guru Jagat
+Rawi Hage
+Kathryn Miller Haines
+Stuart MacBride
+Ruth H. Jacobs
+Steve Hagen
+Margie Palatini
+Don Hagen
+Steve Jackson
+Anthony Haden-Guest
+Dana Jacobi
+W. G. Hale
+Carlos Pan
+Debra W. Haffner
+George Jacobs
+Niccolo Machiavelli
+Alan Jacobs
+Kate Jacoby
+Olivia Mace
+David Halberstam
+Colleen Padilla
+Kathleen Hale
+Allan Hall
+Richard Jacoby
+William Haefeli
+Jennifer Haigh
+Douglas Palmer
+Gordon Jack
+Ron Padgett
+Amanda Maciel
+Christopher N. Page
+Ellie Macdonald
+Portia MacIntosh
+Kathryn Ma
+Piers A. Jacob
+Norm MacDonald
+Tracey Jackson
+Helena S. Paige
+Penny Palmano
+Ellen Jackson
+Gracie MacGregor
+Gerry Hadden
+A.N.D Haksar
+James Graham Hale
+Merle Haggard
+Steven Pacey
+Edward Paice
+Shannon Hale
+Norm Macdonald
+Michael Page
+George Packer
+Steph Jagger
+Roger O.M.D. Jahnke
+Simon Jacobson
+Warren Mackenzie
+Tim Andres Pabon
+Sylvie Haisman
+Nate Jackson
+Linden MacIntyre
+Juliette MacIver
+Madeleine Maby
+Dana C. Jack
+Bristol Palin
+Aparna Jain
+Taylor Hackford
+David Haig
+Lorrie Mack
+Sophie Jaff
+Bradley Jackson
+Robert Ian MacKenzie
+Ruby Jackson
+Charles B. Macdonald
+Greg Page
+Andrew Macdonald
+Alex James
+Fiona MacKenzie
+Mark Haddon
+Julie Mac
+James Macdonald
+Jane MacDougall
+Tim Page
+Harvey B. Mackay
+Jennifer Page
+Audrey Mackaman
+Burton L. Mack
+Jessie Haas
+Joshilyn Jackson
+Melissa Jacobs
+Michael Hale
+Jeff MacGregor
+Fiona MacDonald
+Katharina Hagena
+Sarah Jacoby
+Anna-Liisa Hakkarainen
+Joie Jager-Hyman
+Alex Palmer
+David Hagedorn
+M MacCallum
+James B. Maas
+Aparna Pande
+Manoj Pandey
+John W. Jacobs
+Thomas Paine
+Richard Mabey
+Jo Jackson King
+Baby Halder
+Nick Page
+Kinley MacGregor
+Liza Palmer
+Libby Jackson
+Kristin Halbrook
+Virginia Macgregor
+Betty Halbreich
+Cindy Dr. Pan
+Bruce Hale
+Jeff Mack
+Annie Maccoby
+Heather Hach
+Jean Reynolds Page
+Jamuna Pai
+Myla Jackson
+Kady MacDonald Denton
+Roger Lea MacBride
+Andy Paciorek
+J.D. Jackson
+Simcha Jacobovici
+Niall Mackenzie
+Ann-Marie MacDonald
+Yossi Klein Halevi
+Gene Hackman
+Tony Macaulay
+Fiona Palmer
+Lynn F. Jacobs
+Araminta Hall
+Sara Mackenzie
+Margaret Read MacDonald
+Carla Jablonski
+Mary Downing Hahn
+Robert Macfarlane
+Robert Jackson
+Jane Paley
+Emily Hainsworth
+Sari Padorr
+Mary MacCracken
+Michael Haag
+Maxwell Mackenzie
+Todd Haberkorn
+Kevin MacAllister
+Michael Jaime-Becerra
+David Macfarlane
+Jake Page
+John Hornor Jacobs
+H. JACKSON
+Peter Maas
+Keach Hagey
+Sean Padraic
+Sang Pak
+Thomas Pakenham
+Terrence J
+Shane Jacobson
+Hannah Paasch
+Kieran Palmer
+Svetlana Palmer
+Helen Palmer
+Stuart B. MacBride
+Wayne Pacelle
+H3CZ
+John Jacobs
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Elaine Pagels
+Tessa Hadley
+Sammy Hagar
+Keith Habersberger
+Yamile Saied Méndez
+Namita Jain
+Ed J. Paine
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Laurence Packer
+John W. Jacobs M.D.
+Michael Panckridge
+Margaret Peterson Haddix
+Thomas Hackett
+Emma Page
+Elaine Hall
+Margaret Haffner
+June Hadley
+Melissa P
+Kathryn Jacobi
+Chris Pallace
+William Hague
+Mary Curran Hackett
+Sheila Hale
+Jeremy Jackson
+Harvey Mackay
+Gildart Jackson
+Jenna Bush Hager
+Cindy Pan
+Danielle Paige
+Korey Jackson
+John Hale
+Katie MacAlister
+Bonnie MacBird
+Derek Jacobi
+Joseph A. Maciariello
+David Packard
+Meredith Jaeger
+Rebecca Pacheco
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Christopher N. Page
+Ellie Macdonald
+Portia MacIntosh
+Kathryn Ma
+Piers A. Jacob
+Norm MacDonald
+Tracey Jackson
+Helena S. Paige
+Penny Palmano
+Ellen Jackson
+Gracie MacGregor
+Gerry Hadden
+A.N.D Haksar
+James Graham Hale
+Merle Haggard
+Steven Pacey
+Edward Paice
+Shannon Hale
+Norm Macdonald
+Michael Page
+George Packer
+Steph Jagger
+Roger O.M.D. Jahnke
+Simon Jacobson
+Warren Mackenzie
+Tim Andres Pabon
+Sylvie Haisman
+Nate Jackson
+Linden MacIntyre
+Juliette MacIver
+Madeleine Maby
+Dana C. Jack
+Bristol Palin
+Aparna Jain
+Taylor Hackford
+David Haig
+Lorrie Mack
+Sophie Jaff
+Bradley Jackson
+Robert Ian MacKenzie
+Ruby Jackson
+Charles B. Macdonald
+Greg Page
+Andrew Macdonald
+Alex James
+Marina Palmer
+David Jacobs
+Jeannette Haien
+Daniel Hahn
+Sara Palacios
+Charles Panati
+Fiona MacKenzie
+Mark Haddon
+Julie Mac
+James Macdonald
+Jane MacDougall
+Tim Page
+Harvey B. Mackay
+Jennifer Page
+Audrey Mackaman
+Burton L. Mack
+Jessie Haas
+Joshilyn Jackson
+Melissa Jacobs
+Michael Hale
+Jeff MacGregor
+Fiona MacDonald
+Katharina Hagena
+Sarah Jacoby
+Anna-Liisa Hakkarainen
+Joie Jager-Hyman
+Alex Palmer
+David Hagedorn
+M MacCallum
+James B. Maas
+Aparna Pande
+Manoj Pandey
+John W. Jacobs
+Thomas Paine
+Richard Mabey
+Jo Jackson King
+Baby Halder
+Nick Page
+Kinley MacGregor
+Liza Palmer
+Libby Jackson
+Kristin Halbrook
+Virginia Macgregor
+Betty Halbreich
+Cindy Dr. Pan
+Bruce Hale
+Jeff Mack
+Annie Maccoby
+Heather Hach
+Jean Reynolds Page
+Jamuna Pai
+Myla Jackson
+Kady MacDonald Denton
+Roger Lea MacBride
+Andy Paciorek
+J.D. Jackson
+Simcha Jacobovici
+Niall Mackenzie
+Ann-Marie MacDonald
+Yossi Klein Halevi
+Gene Hackman
+Tony Macaulay
+Fiona Palmer
+Lynn F. Jacobs
+Araminta Hall
+Sara Mackenzie
+Margaret Read MacDonald
+Carla Jablonski
+Mary Downing Hahn
+Robert Macfarlane
+Robert Jackson
+Jane Paley
+Emily Hainsworth
+Sari Padorr
+Mary MacCracken
+Michael Haag
+Maxwell Mackenzie
+Todd Haberkorn
+Kevin MacAllister
+Michael Jaime-Becerra
+David Macfarlane
+Jake Page
+John Hornor Jacobs
+H. JACKSON
+Peter Maas
+Keach Hagey
+Sean Padraic
+Sang Pak
+Thomas Pakenham
+Terrence J
+Shane Jacobson
+Hannah Paasch
+Kieran Palmer
+Svetlana Palmer
+Helen Palmer
+Stuart B. MacBride
+Wayne Pacelle
+H3CZ
+John Jacobs
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Elaine Pagels
+Tessa Hadley
+Sammy Hagar
+Keith Habersberger
+Yamile Saied Méndez
+Namita Jain
+Ruby Jackson
+Charles B. Macdonald
+Greg Page
+Andrew Macdonald
+Alex James
+Marina Palmer
+David Jacobs
+Jeannette Haien
+Daniel Hahn
+Sara Palacios
+Ed J. Paine
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Laurence Packer
+John W. Jacobs M.D.
+Michael Panckridge
+Margaret Peterson Haddix
+Thomas Hackett
+Emma Page
+Elaine Hall
+Margaret Haffner
+June Hadley
+Melissa P
+Kathryn Jacobi
+Chris Pallace
+William Hague
+Mary Curran Hackett
+Sheila Hale
+Jeremy Jackson
+Harvey Mackay
+Gildart Jackson
+Jenna Bush Hager
+Cindy Pan
+Danielle Paige
+Korey Jackson
+John Hale
+Katie MacAlister
+Bonnie MacBird
+Derek Jacobi
+Joseph A. Maciariello
+David Packard
+Meredith Jaeger
+Rebecca Pacheco
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Nathan Hale
+Pamela Haag
+Bernie Mac
+Amanda Hall
+Marianna Palka
+Madhur Jaffrey
+Peter Haining
+Bonner Paddock
+Rona Jaffe
+Alison Mackey
+Jim Paillot
+Sara MacDonald
+Daniel Paisner
+Kristin Hahn
+Aggie MacKenzie
+Philip MacDonald
+Colin Jack
+Tracy Hafen
+Shvetha Jaishankar
+Michele Jaffe
+Emma Jackson
+Peter Jackson
+Magnus MacFarlane-Barrow
+Ian Jackman
+Kellie Hailes
+Kennell Jackson
+Richard Jackson
+Carrington MacDuffie
+Katherine Hall Page
+Chuck Hagel
+Brad Haddin
+T. T. Macan
+Catherine Macaulay
+Frank Pacetta
+Iva-Marie Palmer
+Andrew Jacobson
+Carla Hall
+Michael Hague
+Albert Jack
+Rachel Jacobs
+Stuart MacBride
+Jerome A. Jackson
+Barry Pain
+Robin MacArthur
+Betty MacDonald
+Bonnie MacBird
+Amanda Mackenzie Stuart
+Meredith L. Jacobs
+Kevin MacAllister
+Cynthia Jabar
+Howard Jacobson
+D. J. MacHale
+Charles Panati
+Fiona MacKenzie
+Mark Haddon
+Julie Mac
+James Macdonald
+Jane MacDougall
+Tim Page
+Harvey B. Mackay
+Jennifer Page
+Audrey Mackaman
+Burton L. Mack
+Jessie Haas
+Joshilyn Jackson
+Melissa Jacobs
+Michael Hale
+Jeff MacGregor
+Fiona MacDonald
+Katharina Hagena
+Sarah Jacoby
+Anna-Liisa Hakkarainen
+Joie Jager-Hyman
+Alex Palmer
+David Hagedorn
+M MacCallum
+James B. Maas
+Aparna Pande
+Manoj Pandey
+John W. Jacobs
+Thomas Paine
+Richard Mabey
+Jo Jackson King
+Baby Halder
+Nick Page
+Kinley MacGregor
+Liza Palmer
+Libby Jackson
+Kristin Halbrook
+Ed J. Paine
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Laurence Packer
+John W. Jacobs M.D.
+Michael Panckridge
+Margaret Peterson Haddix
+Thomas Hackett
+Emma Page
+Elaine Hall
+Margaret Haffner
+June Hadley
+Melissa P
+Kathryn Jacobi
+Chris Pallace
+William Hague
+Mary Curran Hackett
+Sheila Hale
+Jeremy Jackson
+Harvey Mackay
+Gildart Jackson
+Jenna Bush Hager
+Cindy Pan
+Danielle Paige
+Korey Jackson
+John Hale
+Katie MacAlister
+Bonnie MacBird
+Derek Jacobi
+Joseph A. Maciariello
+David Packard
+Meredith Jaeger
+Rebecca Pacheco
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Nathan Hale
+Pamela Haag
+Bernie Mac
+Amanda Hall
+Marianna Palka
+Madhur Jaffrey
+Peter Haining
+Bonner Paddock
+Rona Jaffe
+Alison Mackey
+Jim Paillot
+Sara MacDonald
+Daniel Paisner
+Kristin Hahn
+Aggie MacKenzie
+Philip MacDonald
+Colin Jack
+Tracy Hafen
+Shvetha Jaishankar
+Michele Jaffe
+Emma Jackson
+Peter Jackson
+Magnus MacFarlane-Barrow
+Ian Jackman
+Kellie Hailes
+Kennell Jackson
+Richard Jackson
+Carrington MacDuffie
+Katherine Hall Page
+Chuck Hagel
+Auston Habershaw
+Chris Packham
+Nafisa Haji
+Rebecca Paley
+Marilyn Hagerty
+Shaili Jain M.D.
+John Jacobs
+Al Jaffee
+Nasim Marie Jafry
+Laura Holmes Haddad
+David H. Hackworth
+Shelley Jackson
+Daniel Palmer
+Marianna Palk
+Thelma Page
+Vicky Hales-Dutton
+Your Output: 
+[10001, H3CZ, 97.83]
+[10002, Michael]
+[Haag, 90.74]
+[10003, Pamela]
+[Haag, 10.31]
+[10004, Charlie]
+[Haas, 30.97]
+[10005, Jessie]
+[Haas, 73.58]
+[10006, Todd]
+[Haberkorn, 90.91]
+[10007, Keith]
+[Habersberger, 99.46]
+[10008, Auston]
+[Habershaw, 35.14]
+[10009, Heather]
+[Hach, 83.43]
+[10010, Mary]
+[Curran]
+[Hackett, 5.410]
+[10011, Thomas]
+[Hackett, 3.391]
+[10012, Taylor]
+[Hackford, 62.17]
+[10013, Gene]
+[Hackman, 87.16]
+[10014, David]
+[H.]
+[Hackworth, 36.40]
+[10015, Laura]
+[Holmes]
+[Haddad, 36.24]
+[10016, Gerry]
+[Hadden, 54.08]
+[10017, Brad]
+[Haddin, 20.62]
+[10018, Margaret]
+[Peterson]
+[Haddix, 3.336]
+[10019, Mark]
+[Haddon, 71.85]
+[10020, Anthony]
+[Haden-Guest, 43.12]
+[10021, June]
+[Hadley, 4.058]
+[10022, Tessa]
+[Hadley, 98.87]
+[10023, William]
+[Haefeli, 48.77]
+[10024, Tracy]
+[Hafen, 15.56]
+[10025, Debra]
+[W.]
+[Haffner, 44.63]
+[10026, Margaret]
+[Haffner, 4.048]
+[10027, Marylin]
+[Hafner, 30.75]
+[10028, Sammy]
+[Hagar, 99.38]
+[10029, Rawi]
+[Hage, 40.10]
+[10030, David]
+[Hagedorn, 76.48]
+[10031, Chuck]
+[Hagel, 19.32]
+[10032, Bethany]
+[Hagen, 32.81]
+[10033, Don]
+[Hagen, 42.81]
+[10034, Steve]
+[Hagen, 41.03]
+[10035, Katharina]
+[Hagena, 75.18]
+[10036, Jenna]
+[Bush]
+[Hager, 6.627]
+[10037, Marilyn]
+[Hagerty, 35.60]
+[10038, Keach]
+[Hagey, 92.85]
+[10039, Merle]
+[Haggard, 55.34]
+[10040, Michael]
+[Hague, 24.02]
+[10041, William]
+[Hague, 4.893]
+[10042, Daniel]
+[Hahn, 69.74]
+[10043, Kristin]
+[Hahn, 14.24]
+[10044, Mary]
+[Downing]
+[Hahn, 89.14]
+[10045, Jeannette]
+[Haien, 69.73]
+[10046, David]
+[Haig, 62.74]
+[10047, Jennifer]
+[Haigh, 48.84]
+[10048, Kellie]
+[Hailes, 17.54]
+[10049, Kathryn]
+[Miller]
+[Haines, 40.43]
+[10050, Peter]
+[Haining, 11.63]
+[10051, Emily]
+[Hainsworth, 89.85]
+[10052, Sylvie]
+[Haisman, 60.27]
+[10053, Nafisa]
+[Haji, 35.46]
+[10054, Anna-Liisa]
+[Hakkarainen, 75.86]
+[10055, A.N.D]
+[Haksar, 54.45]
+[10056, David]
+[Halberstam, 46.81]
+[10057, Betty]
+[Halbreich, 81.10]
+[10058, Kristin]
+[Halbrook, 79.87]
+[10059, Baby]
+[Halder, 79.38]
+[10060, Bruce]
+[Hale, 81.72]
+[10061, James]
+[Graham]
+[Hale, 54.82]
+[10062, John]
+[Hale, 7.213]
+[10063, Kathleen]
+[Hale, 47.48]
+[10064, Michael]
+[Hale, 74.62]
+[10065, Nathan]
+[Hale, 10.30]
+[10066, Shannon]
+[Hale, 57.53]
+[10067, Sheila]
+[Hale, 5.739]
+[10068, W.]
+[G.]
+[Hale, 43.91]
+[10069, Vicky]
+[Hales-Dutton, 39.78]
+[10070, Yossi]
+[Klein]
+[Halevi, 87.00]
+[10071, Allan]
+[Hall, 48.28]
+[10072, Amanda]
+[Hall, 11.09]
+[10073, Araminta]
+[Hall, 87.74]
+[10074, Carla]
+[Hall, 23.87]
+[10075, Elaine]
+[Hall, 3.876]
+[10076, Terrence]
+[J, 93.95]
+[10077, Cynthia]
+[Jabar, 28.69]
+[10078, Carla]
+[Jablonski, 88.48]
+[10079, Albert]
+[Jack, 24.34]
+[10080, Colin]
+[Jack, 14.88]
+[10081, Dana]
+[C.]
+[Jack, 61.60]
+[10082, Gordon]
+[Jack, 49.47]
+[10083, Ian]
+[Jackman, 17.50]
+[10084, Bradley]
+[Jackson, 63.57]
+[10085, Ellen]
+[Jackson, 53.48]
+[10086, Emma]
+[Jackson, 16.78]
+[10087, Gildart]
+[Jackson, 6.364]
+[10088, H.]
+[JACKSON, 91.92]
+[10089, J.D.]
+[Jackson, 85.69]
+[10090, Jeremy]
+[Jackson, 5.843]
+[10091, Jerome]
+[A.]
+[Jackson, 24.84]
+[10092, Joshilyn]
+[Jackson, 73.72]
+[10093, Kennell]
+[Jackson, 17.55]
+[10094, Korey]
+[Jackson, 7.065]
+[10095, Libby]
+[Jackson, 79.58]
+[10096, Mick]
+[Jackson, 31.38]
+[10097, Myla]
+[Jackson, 84.43]
+[10098, Nate]
+[Jackson, 60.37]
+[10099, Peter]
+[Jackson, 17.20]
+[10100, Richard]
+[Jackson, 17.86]
+[10101, Robert]
+[Jackson, 89.61]
+[10102, Ruby]
+[Jackson, 65.06]
+[10103, Shelley]
+[Jackson, 36.88]
+[10104, Steve]
+[Jackson, 43.06]
+[10105, Tiffany]
+[D.]
+[Jackson, 32.99]
+[10106, Tracey]
+[Jackson, 52.12]
+[10107, Jo]
+[Jackson]
+[King, 79.31]
+[10108, Piers]
+[A.]
+[Jacob, 50.89]
+[10109, Dana]
+[Jacobi, 43.33]
+[10110, Derek]
+[Jacobi, 8.360]
+[10111, Kathryn]
+[Jacobi, 4.731]
+[10112, Simcha]
+[Jacobovici, 85.84]
+[10113, Alan]
+[Jacobs, 45.32]
+[10114, David]
+[Jacobs, 69.29]
+[10115, George]
+[Jacobs, 45.09]
+[10116, John]
+[Jacobs, 35.74]
+[10117, John]
+[Jacobs, 98.13]
+[10118, John]
+[Hornor]
+[Jacobs, 91.51]
+[10119, John]
+[W.]
+[Jacobs, 78.56]
+[10120, John]
+[W.]
+[Jacobs]
+[M.D., 1.603]
+[10121, Lynn]
+[F.]
+[Jacobs, 87.60]
+[10122, Melissa]
+[Jacobs, 74.05]
+[10123, Meredith]
+[L.]
+[Jacobs, 27.87]
+[10124, Rachel]
+[Jacobs, 24.40]
+[10125, Ruth]
+[H.]
+[Jacobs, 40.95]
+[10126, Andrew]
+[Jacobson, 23.21]
+[10127, Howard]
+[Jacobson, 28.71]
+[10128, Shane]
+[Jacobson, 93.97]
+[10129, Simon]
+[Jacobson, 59.67]
+[10130, Kate]
+[Jacoby, 45.39]
+[10131, Richard]
+[Jacoby, 48.67]
+[10132, Sarah]
+[Jacoby, 75.60]
+[10133, Adele]
+[Jacques, 34.21]
+[10134, Meredith]
+[Jaeger, 8.759]
+[10135, Sophie]
+[Jaff, 63.33]
+[10136, Michele]
+[Jaffe, 16.50]
+[10137, Rona]
+[Jaffe, 12.06]
+[10138, Al]
+[Jaffee, 35.74]
+[10139, Madhur]
+[Jaffrey, 11.58]
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:15)
+----------------------------------------
