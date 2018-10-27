@@ -6,7 +6,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         int N = Integer.parseInt(s.nextLine());
         //int N = s.nextInt();
@@ -43,9 +43,9 @@ public class Solution {
     }
 }
 class Student {
-    String name;
-    double marks;
-    Student(String name, String marks) {
+    final String name;
+    final double marks;
+    Student(final String name, final String marks) {
         this.name  = name;
         this.marks = Double.parseDouble(marks);
     }
