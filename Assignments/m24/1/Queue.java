@@ -62,7 +62,7 @@ class Queue<Item> implements Iterable<Item> {
             first = last;
         } else {
             oldlast.next = last;
-        }         
+        }
         n++;
     }
     /**
@@ -96,8 +96,8 @@ class Queue<Item> implements Iterable<Item> {
      * @return     {Returns an iterator that iterates over the items in
      *  this queue in First In First Out order}.
      */
-    public Iterator<Item> iterator()  {
-       return new ListIterator<Item>(first);  
+    public Iterator<Item> iterator() {
+       return new ListIterator<Item>(first);
     }
     private class ListIterator<Item> implements Iterator<Item> {
         private Node<Item> current;
@@ -114,7 +114,7 @@ class Queue<Item> implements Iterable<Item> {
         }
         public Item next() {
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     } 
